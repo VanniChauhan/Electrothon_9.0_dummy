@@ -17,6 +17,7 @@ export default function Footer() {
     >
       <TargetCursor targetSelector=".cursor-target" />
       {/* MLH Trust Badge (fixed) */}
+      {false && (
       <a
         id="mlh-trust-badge"
         href="https://mlh.io/apac?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=white"
@@ -39,6 +40,7 @@ export default function Footer() {
           style={{ width: '100%' }}
         />
       </a>
+      )}
 
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
@@ -249,11 +251,11 @@ export default function Footer() {
                 <div className="flex justify-center mt-6">
                   <button
                     type="button"
-                    onClick={() => window.open('https://electrothon-7-0.vercel.app/', '_blank')}
+                    onClick={() => window.open('https://electrothon.nith.ac.in/', '_blank')}
                     className="cursor-target relative text-white font-bold bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-lg transition-all duration-300 px-4 py-2 sm:px-6 sm:py-3 rounded-lg border-2 border-blue-500 whitespace-nowrap"
                     style={{ fontFamily: "'Press Start 2P', cursive", fontSize: '0.65rem' }}
                   >
-                    Electrothon 7.0
+                    Electrothon 8.0
                   </button>
                 </div>
               </div>

@@ -104,7 +104,7 @@ export default function Page() {
         </div>
       )}
 
-      <Prizes />
+      {/* <Prizes /> */}
       <GalleryPage />
       {/* Judges + Themes share a single background */}
       <div className="relative w-full">
@@ -140,12 +140,12 @@ export default function Page() {
           <Themes />
         </div>
       </div>
-      <ComingSoon />
-      <Assortedprizes />
+      {/* <ComingSoon /> */}
+      {/* <Assortedprizes /> */}
       <Sponsors />
-      <CommunitySponsors />
-      <Timeline />
-      <Runshow />
+      {/* <CommunitySponsors /> */}
+      {/* <Timeline /> */}
+      {/* <Runshow /> */}
       <Testimonials />
       <Organizers />
       <FAQList />
