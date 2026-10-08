@@ -45,7 +45,7 @@ export default function MainPage() {
         <video
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover z-0"
-          src="/videos/bg.mp4"
+          src="/videos/bg_old.mp4"
           autoPlay
           loop
           muted
@@ -87,7 +87,7 @@ export default function MainPage() {
             <span className="block sm:inline"></span>
 
             {/* 8.0 */}
-            <span className="block sm:inline">8.0</span>
+            <span className="block sm:inline">9.0</span>
           </h1>
           </div>
           {/* Subtitle */}
@@ -104,7 +104,8 @@ export default function MainPage() {
         </div>
 
         {/* Countdown HUD */}
-        <Countdown targetDate="2026-03-13T23:59:59+05:30" />
+        {/* <Countdown targetDate="2026-03-13T23:59:59+05:30" /> */}
+        <h2 className="relative z-30 mt-8 mb-10 font-['Orbitron'] font-extrabold text-white text-[24px] md:text-[40px]">Coming Soon</h2>
       </div>
     </>
   );

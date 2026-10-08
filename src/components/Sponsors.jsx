@@ -234,7 +234,7 @@ export default function Sponsors() {
         className="header-section flex flex-col items-center justify-center"
         style={{ position: "relative", paddingTop: 90 }}
       >
-        <h1 className="modern-title text-center">OUR SPONSORS</h1>
+        <h1 className="modern-title text-center">PREVIOUS SPONSORS</h1>
       </div>
 
       <div className="game-layout" style={{ padding: "3rem 1rem 4rem" }}>

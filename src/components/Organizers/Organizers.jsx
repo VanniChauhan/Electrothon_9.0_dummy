@@ -113,6 +113,7 @@ export default function Organizers() {
     <section className={styles.section}>
       <div className={styles.container}>
         {/* Lead Organizers Section */}
+        {false && (<>
       <h2
   className="w-full px-4 text-center leading-relaxed text-[clamp(1.2rem,5vw,3.75rem)] text-white drop-shadow-[0_4px_0_rgba(0,0,0,1)]"
   style={{ fontFamily: "'Press Start 2P', cursive" }}
@@ -127,6 +128,7 @@ export default function Organizers() {
           ))}
         </div>
         <div className={styles.leadSpacer} />
+        </>)}
 
         {/* Main Organizers Section */}
          <h3
@@ -137,6 +139,7 @@ export default function Organizers() {
           </h3>
 
         {/* SLIDER 1 */}
+        {false && (
         <div className={styles.slider} onMouseEnter={() => setHoveredSlider("a")} onMouseLeave={() => setHoveredSlider(null)}>
           <div className={`${styles.track} ${styles.animateLeft} ${slider1Active !== null ? styles.trackActive : ''}`} style={{ animationPlayState: hoveredSlider === "a" ? "paused" : "running" }}>
             {dupA.map((card, i) => {
@@ -155,6 +158,7 @@ export default function Organizers() {
             })}
           </div>
         </div>
+        )}
 
         {/* SLIDER 2 (now matches slider 1 for hover/active logic) */}
         <div className={styles.slider} onMouseEnter={() => setHoveredSlider("b")} onMouseLeave={() => setHoveredSlider(null)}>

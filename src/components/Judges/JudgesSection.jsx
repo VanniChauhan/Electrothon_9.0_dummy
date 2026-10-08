@@ -84,7 +84,7 @@ export default function JudgesSection() {
               textShadow: "0 0 15px rgba(255, 255, 255, 0.5)",
             }}
           >
-            JUDGES
+           PREVIOUS JUDGES AND SPEAKERS
           </h2>
         </div>
 

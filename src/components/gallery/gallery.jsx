@@ -77,7 +77,7 @@ export default function GalleryPage() {
             className="text-[clamp(1.6rem,5vw,3.75rem)] text-white drop-shadow-[0_4px_0_rgba(0,0,0,1)]"
             style={{ fontFamily: "'Press Start 2P', cursive" }}
           >
-            EVENTS GALLERY
+            Glimpses of Last Electrothon
           </h2>
         </div>
 
